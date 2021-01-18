@@ -32,7 +32,7 @@ int main(void)
 
         // Data set
 
-        DataSet data_set("D:/Artelnics/opennn/examples/simple_function_regressidata/simple_function_regression.csv", ';', true);
+        DataSet data_set("D:/Artelnics/opennn/examples/simple_function_regression/data/simple_function_regression.csv", ';', true);
 
         // Variables
 
