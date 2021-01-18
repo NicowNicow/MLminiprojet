@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/simple_pattern_recognition.dir/main.cpp.o  -o simple_pattern_recognition  -L/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/opennn -Wl,-rpath,/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/opennn ../../opennn/libopennn.a 
