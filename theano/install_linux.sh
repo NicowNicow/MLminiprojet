@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cd
 mkdir pip_packages
 sudo apt install python3
