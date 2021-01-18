@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/mnt/c/Users/Nico/Desktop/pyth
 Determining if the C compiler works passed with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_14837/fast"
-/usr/bin/make -f CMakeFiles/cmTC_14837.dir/build.make CMakeFiles/cmTC_14837.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_be407/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be407.dir/build.make CMakeFiles/cmTC_be407.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14837.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_14837.dir/testCCompiler.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_14837
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14837.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_14837.dir/testCCompiler.c.o  -o cmTC_14837 
+Building C object CMakeFiles/cmTC_be407.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_be407.dir/testCCompiler.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_be407
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be407.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_be407.dir/testCCompiler.c.o  -o cmTC_be407 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8575b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8575b.dir/build.make CMakeFiles/cmTC_8575b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_447f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_447f2.dir/build.make CMakeFiles/cmTC_447f2.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_8575b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8575b.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o  -o cmTC_8575b 
+Building C object CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_447f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_447f2.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o  -o cmTC_447f2 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 8.3.0 (Debian 8.3.0-6) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8575b' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwF7kFt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8575b /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8575b' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_447f2' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyLMwrX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_447f2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_447f2' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8575b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8575b.dir/build.make CMakeFiles/cmTC_8575b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_447f2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_447f2.dir/build.make CMakeFiles/cmTC_447f2.dir/build]
   ignore line: [make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_8575b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8575b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o  -o cmTC_8575b ]
+  ignore line: [Building C object CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_447f2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_447f2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o  -o cmTC_447f2 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Debian 8.3.0-6) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8575b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwF7kFt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8575b /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_447f2' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyLMwrX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_447f2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccwF7kFt.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyLMwrX.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8575b] ==> ignore
+    arg [cmTC_447f2] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -124,7 +124,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_8575b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_447f2.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -156,14 +156,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3485b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3485b.dir/build.make CMakeFiles/cmTC_3485b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_68d34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68d34.dir/build.make CMakeFiles/cmTC_68d34.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3485b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3485b.dir/feature_tests.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3485b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3485b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3485b.dir/feature_tests.c.o  -o cmTC_3485b 
+Building C object CMakeFiles/cmTC_68d34.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_68d34.dir/feature_tests.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_68d34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68d34.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_68d34.dir/feature_tests.c.o  -o cmTC_68d34 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -176,14 +176,14 @@ make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFi
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ed9fb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ed9fb.dir/build.make CMakeFiles/cmTC_ed9fb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_69042/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69042.dir/build.make CMakeFiles/cmTC_69042.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed9fb.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ed9fb.dir/feature_tests.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ed9fb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed9fb.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ed9fb.dir/feature_tests.c.o  -o cmTC_ed9fb 
+Building C object CMakeFiles/cmTC_69042.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_69042.dir/feature_tests.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_69042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69042.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_69042.dir/feature_tests.c.o  -o cmTC_69042 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -196,14 +196,14 @@ make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFi
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4cbdc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4cbdc.dir/build.make CMakeFiles/cmTC_4cbdc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d236c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d236c.dir/build.make CMakeFiles/cmTC_d236c.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4cbdc.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4cbdc.dir/feature_tests.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4cbdc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cbdc.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4cbdc.dir/feature_tests.c.o  -o cmTC_4cbdc 
+Building C object CMakeFiles/cmTC_d236c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d236c.dir/feature_tests.c.o   -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d236c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d236c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d236c.dir/feature_tests.c.o  -o cmTC_d236c 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -214,28 +214,28 @@ make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFi
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d36e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d36e.dir/build.make CMakeFiles/cmTC_9d36e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_30f73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30f73.dir/build.make CMakeFiles/cmTC_30f73.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9d36e.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_9d36e.dir/testCXXCompiler.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9d36e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d36e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9d36e.dir/testCXXCompiler.cxx.o  -o cmTC_9d36e 
+Building CXX object CMakeFiles/cmTC_30f73.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_30f73.dir/testCXXCompiler.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_30f73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30f73.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_30f73.dir/testCXXCompiler.cxx.o  -o cmTC_30f73 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8da65/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8da65.dir/build.make CMakeFiles/cmTC_8da65.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_05439/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05439.dir/build.make CMakeFiles/cmTC_05439.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8da65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8da65.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8da65 
+Building CXX object CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_05439
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05439.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_05439 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -247,9 +247,9 @@ Thread model: posix
 gcc version 8.3.0 (Debian 8.3.0-6) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8da65' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc76xQGi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8da65 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8da65' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_05439' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cckPhOi2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_05439 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_05439' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -257,14 +257,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8da65/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8da65.dir/build.make CMakeFiles/cmTC_8da65.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_05439/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_05439.dir/build.make CMakeFiles/cmTC_05439.dir/build]
   ignore line: [make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8da65]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8da65.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8da65 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_05439]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05439.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_05439 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -276,13 +276,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Debian 8.3.0-6) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8da65' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc76xQGi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8da65 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_05439' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cckPhOi2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_05439 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc76xQGi.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckPhOi2.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8da65] ==> ignore
+    arg [cmTC_05439] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_8da65.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_05439.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77156/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77156.dir/build.make CMakeFiles/cmTC_77156.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8fe4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fe4b.dir/build.make CMakeFiles/cmTC_8fe4b.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_77156.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_77156.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_77156
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77156.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_77156.dir/feature_tests.cxx.o  -o cmTC_77156 
+Building CXX object CMakeFiles/cmTC_8fe4b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_8fe4b.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8fe4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fe4b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8fe4b.dir/feature_tests.cxx.o  -o cmTC_8fe4b 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFi
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_473ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_473ff.dir/build.make CMakeFiles/cmTC_473ff.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0f6af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f6af.dir/build.make CMakeFiles/cmTC_0f6af.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_473ff.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_473ff.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_473ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_473ff.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_473ff.dir/feature_tests.cxx.o  -o cmTC_473ff 
+Building CXX object CMakeFiles/cmTC_0f6af.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_0f6af.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0f6af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6af.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0f6af.dir/feature_tests.cxx.o  -o cmTC_0f6af 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFi
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48d0f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_48d0f.dir/build.make CMakeFiles/cmTC_48d0f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bdac4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdac4.dir/build.make CMakeFiles/cmTC_bdac4.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_48d0f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_48d0f.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_48d0f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48d0f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_48d0f.dir/feature_tests.cxx.o  -o cmTC_48d0f 
+Building CXX object CMakeFiles/cmTC_bdac4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_bdac4.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bdac4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdac4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bdac4.dir/feature_tests.cxx.o  -o cmTC_bdac4 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -557,14 +557,14 @@ make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFi
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01cc9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01cc9.dir/build.make CMakeFiles/cmTC_01cc9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_764e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_764e6.dir/build.make CMakeFiles/cmTC_764e6.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_01cc9.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_01cc9.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_01cc9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01cc9.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_01cc9.dir/feature_tests.cxx.o  -o cmTC_01cc9 
+Building CXX object CMakeFiles/cmTC_764e6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_764e6.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_764e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_764e6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_764e6.dir/feature_tests.cxx.o  -o cmTC_764e6 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
@@ -630,14 +630,14 @@ make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFi
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_38ad6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38ad6.dir/build.make CMakeFiles/cmTC_38ad6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e44ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e44ba.dir/build.make CMakeFiles/cmTC_e44ba.dir/build
 make[1]: Entering directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_38ad6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_38ad6.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_38ad6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38ad6.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_38ad6.dir/feature_tests.cxx.o  -o cmTC_38ad6 
+Building CXX object CMakeFiles/cmTC_e44ba.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_e44ba.dir/feature_tests.cxx.o -c /mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e44ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e44ba.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e44ba.dir/feature_tests.cxx.o  -o cmTC_e44ba 
 make[1]: Leaving directory '/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/CMakeFiles/CMakeTmp'
 
 
