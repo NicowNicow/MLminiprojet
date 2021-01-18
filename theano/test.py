@@ -1,5 +1,6 @@
 import theano
 from theano import tensor
+
 a = tensor.dscalar()
 b = tensor.dscalar()
 c = a + b
