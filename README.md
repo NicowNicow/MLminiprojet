@@ -19,7 +19,7 @@ Source: [Wikipédia](https://fr.wikipedia.org/wiki/OpenNN)
 >  Theano is an open source project primarily developed by the Montreal Institute for Learning Algorithms (MILA) at the Université de Montréal. 
 The name of the software references the ancient philosopher Theano, long associated with the development of the golden mean.
 On 28 September 2017, Pascal Lamblin posted a message from Yoshua Bengio, Head of MILA: major development would cease after the 1.0 release due to competing offerings by strong industrial players. Theano 1.0.0 was then released on 15 November 2017.
-On 17 May 2018, Chris Fonnesbeck wrote on behalf of the PyMC development team that the PyMC developers will officially assume control of Theano maintenance once they step down.
+On 17 May 2018, Chris Fonnesbeck wrote on behalf of the PyMC development team that the PyMC developers will officially assume control of Theano maintenance once they step down.  
 Source: [Wikipédia](https://en.wikipedia.org/wiki/Theano_(software))
 
 ---
