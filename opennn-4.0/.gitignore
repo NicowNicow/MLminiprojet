@@ -41,11 +41,6 @@ Temporary Items
 
 Makefile.in
 
-# Cmake cache things:
-CMakeCache.txt
-CMakeFiles/
-*.cmake
-
 # http://www.gnu.org/software/autoconf
 
 /autom4te.cache
@@ -214,11 +209,17 @@ Makefile*
 *.qmlproject.user.*
 
 # Examples
-[Ee]xamples/*
+# [Ee]xamples/*
 *filters
 *vcxproj
 *sln
 
+#CMake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+
+# Executables:
 examples/airfoil_self_noise/airfoil_self_noise
 examples/breast_cancer/breast_cancer
 examples/iris_plant/iris_plant

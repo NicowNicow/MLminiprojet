@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# For convenience, we shipped a working state of OpenNN.
+# However, it can be remade with what follows:
+
 # OpenNN setup:
 wget -O opennn.tar.gz https://github.com/Artelnics/opennn/archive/v4.0.tar.gz
 tar -xvf opennn.tar.gz
@@ -11,6 +14,7 @@ find . -name \*.cpp -exec sed -i "s/simple_function_regressidata/simple_function
 cmake .
 cmake -DCMAKE_TYPE_BUILD=Release .
 make
+
 
 # Theano setup:
 cd ..
