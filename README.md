@@ -8,6 +8,8 @@ Mini-projet de tests de librairies de Machine Learning sur Python & Unix.
 
 
 Vidéo de présentation de Theano:
+
+
 [![Vidéo de présentation de Theano](https://img.youtube.com/vi/AYyUuKGogbw/0.jpg)](https://www.youtube.com/watch?v=AYyUuKGogbw)
 
 ## Installation
