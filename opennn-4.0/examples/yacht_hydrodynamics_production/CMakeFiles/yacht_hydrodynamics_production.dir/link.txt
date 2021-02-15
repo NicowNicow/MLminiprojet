@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/yacht_hydrodynamics_production.dir/main.cpp.o  -o yacht_hydrodynamics_production  -L/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/opennn -Wl,-rpath,/mnt/c/Users/Nico/Desktop/pythonx/opennn-4.0/opennn ../../opennn/libopennn.a 
