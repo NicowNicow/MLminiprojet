@@ -3,8 +3,8 @@ import theano.tensor
 
 from theano import function 
 
-matrix1 = tensor.dmatrix('matrix1') 
-matrix2 = tensor.dmatrix('matrix2') 
+matrix1 = theano.tensor.dmatrix('matrix1') 
+matrix2 = theano.tensor.dmatrix('matrix2') 
 formula = matrix1 + matrix2 
 toExecute = function([matrix1, matrix2], formula) 
   
