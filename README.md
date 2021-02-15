@@ -2,13 +2,13 @@
 
 Mini-projet de tests de librairies de Machine Learning sur Python & Unix. 
 
+
 ## Videos de présentation
 
-[Vidéo de présentation de OpenNN]()
+[Vidéo de présentation de OpenNN](https://github.com/NicowNicow/MLminiprojet/blob/main/vids/openNN_pitch.mp4)
 
 
 Vidéo de présentation de Theano:
-
 
 [![Vidéo de présentation de Theano](https://img.youtube.com/vi/AYyUuKGogbw/0.jpg)](https://www.youtube.com/watch?v=AYyUuKGogbw)
 
