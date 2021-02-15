@@ -1,16 +1,18 @@
 #!/bin/sh
 
-#OpenNN setup
+# OpenNN setup:
 wget -O opennn.tar.gz https://github.com/Artelnics/opennn/archive/v4.0.tar.gz
 tar -xvf opennn.tar.gz
 rm opennn.tar.gz
 cd opennn-4.0
-find examples -name \*.cpp -exec sed -i "s/..\/data/data/g" {} \; # fixing data path
+# Fixing data path:
+find examples -name \*.cpp -exec sed -i "s/..\/data/data/g" {} \;
+find . -name \*.cpp -exec sed -i "s/simple_function_regressidata/simple_function_regression\/data/g" {} \;
 cmake .
 cmake -DCMAKE_TYPE_BUILD=Release .
 make
 
-#Theano setup
+# Theano setup:
 cd ..
 mkdir pip_packages
 sudo apt install python3
