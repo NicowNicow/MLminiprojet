@@ -1,6 +1,6 @@
 # Machine Learning Mini Projet
 
-Mini-projet de tests de librairies de Machine Learning sur Python & Unix. 
+Mini-projet de tests de librairies de Machine Learning sur Python & Unix.  Le groupe est composé de Florian SANANES (OpenNN) et Nicolas MENGOZZI (Theano).
 
 
 ## Videos de présentation
@@ -51,7 +51,20 @@ Inconvénients:
 
 ### Caractéristiques de Theano
 
-ToDO
+Avantages:
+- La librairie est compatible avec d'autre librairies, telles que numpy.
+- La librairie permet de générer simplement des [Graphs de calculs](https://www.tutorialspoint.com/theano/theano_computational_graph.htm) représentant l'intégralité du programme.
+- Ces graphs sont très pertinents pour le développement de réseaux de neurones récurrents.
+- Des wrappers tels que Keras et Lasagne sont disponibles pour faciliter le développement.
+
+Inconvénients:
+- Les modèles les plus larges sont parfois long à compiler.
+- La librairie est plus lourde que ses concurrents (pyTorch, ...).
+- Les messages d'erreurs sont parfois confus.
+- Le support sur les modèles pré-entrainé laisse à désirer.
+- La librairie ne supporte pas l'usage de GPU en SLI ou de multi-GPU.
+- Comme le montre l'existence de wrappers, la librairie de base peut s'avérer difficile à utiliser.
+- La librairie serait problématique à utiliser sur un déploiement AWS (A vérifier).
   
 ---
   
