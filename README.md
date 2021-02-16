@@ -41,7 +41,13 @@ Source: [Wikipédia](https://en.wikipedia.org/wiki/Theano_(software))
 
 ### Caractéristiques d'OpenNN
 
-ToDo
+Avantages:
+- La librairie est aisée d'utilisation si l'on est familier avec le C++.
+- La documention sur l'utilisation est complète et claire.
+
+Inconvénients:
+- La procédure d'installation est défectueuse.
+- OpenNN nécessite d'être *linkée* à d'autres librairies afin d'accéder à de bonnes performances. Cet aspect ne semble pas documenté.
 
 ### Caractéristiques de Theano
 
