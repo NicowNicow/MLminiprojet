@@ -88,4 +88,10 @@ ToDo
 
 ### Sources pour la documentation Theano
   
-ToDo
+* [JournalDev - Tutorial de développement Theano](https://www.journaldev.com/17840/theano-python-tutorial)
+* [Theano - API Documentation](https://theano-pymc.readthedocs.io/en/latest/library/index.html)
+* [DVLUP - Pro and Cons of AI Frameworks](https://dvlup.tech/2018/12/18/ai-frameworks-pros-cons/)
+* [INRIA - Deep Learning Framework](https://project.inria.fr/deeplearning/files/2016/05/DLFrameworks.pdf)
+* [Quora - Strengths of Theano vs Torch](https://www.quora.com/Deep-Learning-What-are-the-strengths-of-Theano-vs-Torch)
+* [RecodeMinds - The Ultimate FaceOff between different Deep Learning Algorithm](https://recodeminds.com/blog/the-ultimate-face-off-between-different-deep-learning-frameworks/)
+* [Edureka - Theano vs TensorFlow](https://www.edureka.co/blog/theano-vs-tensorflow/)
