@@ -2,11 +2,9 @@
 
 Mini-projet de tests de librairies de Machine Learning sur Python & Unix.  Le groupe est composé de Florian SANANES (OpenNN) et Nicolas MENGOZZI (Theano).
 
-
 ## Videos de présentation
 
 [Vidéo de présentation de OpenNN](https://github.com/NicowNicow/MLminiprojet/blob/main/vids/openNN_pitch.mp4)
-
 
 Vidéo de présentation de Theano:
 
@@ -42,22 +40,26 @@ Source: [Wikipédia](https://en.wikipedia.org/wiki/Theano_(software))
 ### Caractéristiques d'OpenNN
 
 Avantages:
+
 - La librairie est aisée d'utilisation si l'on est familier avec le C++.
 - La documention sur l'utilisation est complète et claire.
 
 Inconvénients:
+
 - La procédure d'installation est défectueuse.
 - OpenNN nécessite d'être *linkée* à d'autres librairies afin d'accéder à de bonnes performances. Cet aspect ne semble pas documenté.
 
 ### Caractéristiques de Theano
 
 Avantages:
+
 - La librairie est compatible avec d'autre librairies, telles que numpy.
 - La librairie permet de générer simplement des [Graphs de calculs](https://www.tutorialspoint.com/theano/theano_computational_graph.htm) représentant l'intégralité du programme.
 - Ces graphs sont très pertinents pour le développement de réseaux de neurones récurrents.
 - Des wrappers tels que Keras et Lasagne sont disponibles pour faciliter le développement.
 
 Inconvénients:
+
 - Les modèles les plus larges sont parfois long à compiler.
 - La librairie est plus lourde que ses concurrents (pyTorch, ...).
 - Les messages d'erreurs sont parfois confus.
@@ -88,10 +90,10 @@ ToDo
 
 ### Sources pour la documentation Theano
   
-* [JournalDev - Tutorial de développement Theano](https://www.journaldev.com/17840/theano-python-tutorial)
-* [Theano - API Documentation](https://theano-pymc.readthedocs.io/en/latest/library/index.html)
-* [DVLUP - Pro and Cons of AI Frameworks](https://dvlup.tech/2018/12/18/ai-frameworks-pros-cons/)
-* [INRIA - Deep Learning Framework](https://project.inria.fr/deeplearning/files/2016/05/DLFrameworks.pdf)
-* [Quora - Strengths of Theano vs Torch](https://www.quora.com/Deep-Learning-What-are-the-strengths-of-Theano-vs-Torch)
-* [RecodeMinds - The Ultimate FaceOff between different Deep Learning Algorithm](https://recodeminds.com/blog/the-ultimate-face-off-between-different-deep-learning-frameworks/)
-* [Edureka - Theano vs TensorFlow](https://www.edureka.co/blog/theano-vs-tensorflow/)
+- [JournalDev - Tutorial de développement Theano](https://www.journaldev.com/17840/theano-python-tutorial)
+- [Theano - API Documentation](https://theano-pymc.readthedocs.io/en/latest/library/index.html)
+- [DVLUP - Pro and Cons of AI Frameworks](https://dvlup.tech/2018/12/18/ai-frameworks-pros-cons/)
+- [INRIA - Deep Learning Framework](https://project.inria.fr/deeplearning/files/2016/05/DLFrameworks.pdf)
+- [Quora - Strengths of Theano vs Torch](https://www.quora.com/Deep-Learning-What-are-the-strengths-of-Theano-vs-Torch)
+- [RecodeMinds - The Ultimate FaceOff between different Deep Learning Algorithm](https://recodeminds.com/blog/the-ultimate-face-off-between-different-deep-learning-frameworks/)
+- [Edureka - Theano vs TensorFlow](https://www.edureka.co/blog/theano-vs-tensorflow/)
