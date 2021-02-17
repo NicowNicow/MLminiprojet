@@ -174,7 +174,6 @@ Il est maintenant temps de définir nos neurones. pour chacune des neurones, on 
 <img src="img/expression.png"/>
 
 <br>
-<br>
 Notons qu'il nous est alors nécessaire de définir une matric temporaire entre les deux couches du réseau de neurone, afin de pouvoir appliquer la même formule à la troisième neurone.
 
 ```python
@@ -183,6 +182,64 @@ realOutput = theano.tensor.vector('realOutput')
 cost = -(realOutput*theano.tensor.log(neuron3) + (1 - realOutput)*theano.tensor.log(1-neuron3)).sum()
 gradWeight1, gradWeight2, gradWeight3, gradBias1, gradBias2 = theano.tensor.grad(cost, [weight1, weight2, weight3, bias1, bias2])
 ```
+
+Nous définissons ici un vector, nommé realOutput, qui correspond à l'output attendu à la sortie du réseau. Nous créons également la formule de calcul du coût pour ce réseau de neurones. Enfrin, grâce à cette formule, nous calculons les gradients des différents poids et des deux biais.
+
+```python
+# Weight and Bias update
+TrainingFunction = function(
+    inputs = [inputMatrix, realOutput],
+    outputs = [neuron3, cost],
+    updates = [
+        [weight1, weight1-learningRate*gradWeight1],
+        [weight2, weight2-learningRate*gradWeight2],
+        [weight3, weight3-learningRate*gradWeight3],
+        [bias1, bias1-learningRate*gradBias1],
+        [bias2, bias2-learningRate*gradBias2]
+    ]
+)
+```
+
+Ici, nous définissons la fonction principale du projet. Il s'agit d'une Théano function. Nous lui donnons deux entrées, ici la matrice d'entrée ainsi que la sortie attendue. Nous lui donnos également les sorties attendues: le résultat du calcul de la troisième neurone, ainsi que le coût de l'itération.
+Enfin, on définit les updates des différents poids et biais.
+
+```python
+# Inputs and Outputs Definition
+inputs = [
+    [0, 0],
+    [0, 1],
+    [1, 0],
+    [1, 1]
+]
+
+outputs = [1, 0, 0, 1]
+```
+
+Nous définissons ici la matrice d'input initiale, qui est associée à l'objet inputMatrix déclaré précédemment. Comme il s'agit d'un entrainement supervisé, nous déclarons également les résultats attendus pour chaque couple de valeurs.
+
+```python
+# Model Training
+costArray = []
+for index in range(iterationNumber):
+    predictionArray, iterationCost = TrainingFunction(inputs, outputs)
+    costArray.append(iterationCost)
+```
+
+C'est ici que débute l'entrainement de notre réseau. On définit une costArray, qui nous permettra de conserver le coût de cha que opération. Ce n'est pas une étape obligatoire, mais il peut être utile de conserver le coût afin d'étudier l'entrainement de notre réseau.
+Ensuite, on applique la Theano function, que nous avons défini précedemment, à notre matrice d'entrée, autant de fois qu'indiqué par notre variable iterationNumber.
+
+```python
+# Output Printing
+print('Here are the outputs of the Neural Network:')
+for index in range (len(inputs)):
+    print('The output for the input [%d, %d] is %.2f' % (inputs[index][0], inputs[index][1], predictionArray[index])) 
+```
+
+Après écriture du script d'affichage et exécution du fichier python, on obtient le résultat suivant dans la console:
+
+<img src="img/resultat_entrainement.jpg">
+
+Nous avons ainsi appris les bases de l'utilisation de Théano, et savons désormais entrainer un réseau de neurone à plusieurs couches.
 
 ---
 
