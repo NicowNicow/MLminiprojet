@@ -2,32 +2,29 @@
 
 Mini-projet de tests de librairies de Machine Learning sur Python & Unix.  Le groupe est composé de Florian SANANES (OpenNN) et Nicolas MENGOZZI (Theano).
 
-<br>
-
 ## Videos de présentation
 
 [Vidéo de présentation de OpenNN](https://github.com/NicowNicow/MLminiprojet/blob/main/vids/openNN_pitch.mp4)
 
 Vidéo de présentation de Theano:
 
-<center>
-    <a href="https://www.youtube.com/watch?v=AYyUuKGogbw">
-    <img src="https://img.youtube.com/vi/AYyUuKGogbw/0.jpg">
-    </a>
-</center>
+<a href="https://www.youtube.com/watch?v=AYyUuKGogbw">
+   <img src="https://img.youtube.com/vi/AYyUuKGogbw/0.jpg">
+</a>
+
 <br>
 
 ## Installation
 
 Afin d'installer les deux librairies utilisées dans ce projet, [OpenNN](https://www.opennn.net/) et [Theano](https://www.tutorialspoint.com/theano/index.htm), il suffit d'executer le [script d'installation](https://github.com/NicowNicow/MLminiprojet/blob/14a55f329b63c61fb16873534a3756683c6b9133/install_script.sh), situé à la racine du repository, dans le répertoire de travail choisi: `install_script.sh`
 
-<br>
 
 ---
 
 ## Historique des librairies
 
 <h3><u>OpenNN</h3></u>
+<br>
 
 > Le développement de OpenNN s’initia au Centre Internacional de Métodos Numéricos en Ingeniería (CIMNE), en 2003, en faisant partie d’un projet de recherche de l’Union européenne appelé ‘RAMFLOOD’. Ensuite, il continua en faisant partie d’autres projets similaires. Actuellement, OpenNN est développé par l’entreprise startup Artelnics. En 2014, la page «Big Data Analytics Today» qualifia OpenNN comme le numéro 1 dans la liste de projets d’intelligence artificielle inspirés du fonctionnement du cerveau. Dans la même année, ce logiciel fut sélectionné parmi les 5 meilleures applications d’exploration de données, par «ToppersWorld».  
 Source: [Wikipédia](https://fr.wikipedia.org/wiki/OpenNN)
@@ -35,6 +32,7 @@ Source: [Wikipédia](https://fr.wikipedia.org/wiki/OpenNN)
 <br>
 
 <h3><u>Theano</h3></u>
+<br>
 
 > Theano is an open source project primarily developed by the Montreal Institute for Learning Algorithms (MILA) at the Université de Montréal.
 The name of the software references the ancient philosopher Theano, long associated with the development of the golden mean.
@@ -47,6 +45,7 @@ Source: [Wikipédia](https://en.wikipedia.org/wiki/Theano_(software))
 ## Caractéristiques et points forts/faibles des librairies
 
 <h3><u>Caractéristiques d'OpenNN</h3></u>
+<br>
 
 Avantages:
 
@@ -57,8 +56,11 @@ Inconvénients:
 
 - La procédure d'installation est défectueuse.
 - OpenNN nécessite d'être *linkée* à d'autres librairies afin d'accéder à de bonnes performances. Cet aspect ne semble pas documenté.
+  
+<br>
 
 <h3><u>Caractéristiques de Theano</h3></u>
+<br>
 
 Avantages:
 
@@ -82,8 +84,11 @@ Inconvénients:
 ## Prise en main des librairies
 
 <u><h3> Prise en main d'OpenNN</h3></u>
+<br>
 
 ToDo Florian
+
+<br>
 
 <u><h3> Prise en main de Theano: Exemple de création d'un réseau de neurones double couche</h3></u>
 <br>
@@ -91,61 +96,102 @@ ToDo Florian
 Afin d'appréhender la prise en main de la librairie avec un exemple concret, nous allons ici créer un réseau de neurones à deux couches, dont le but est l'apprentissage de la fonction logique XNOR.
 On rappelle tout d'abord la table de vérité de la fonction XNOR:  
 
-<center>
-   <table style="text-align: center;">
-      <thead>
-         <tr>
-            <th>Entrée 1</th>
-               <th>Entrée 2</th>
-               <th>Sortie</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>0</td>
-               <td>0</td>
-               <td>1</td>
-         </tr>
-            <tr>
-            <td>0</td>
-               <td>1</td>
-               <td>0</td>
-         </tr>
-            <tr>
-            <td>1</td>
-               <td>0</td>
-               <td>0</td>
-         </tr>
-            <tr>
-            <td>1</td>
-               <td>1</td>
-               <td>1</td>
-         </tr>
-      </tbody>
-   </table>
-</center>
+| Entrée 1 | Entrée 2 | Sortie |
+|:-:|:-:|:-:|
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 <br>
 
 Nous allons ici réaliser un apprentissage supervisé d'un réseau à plusieurs couches. Ce réseau est défini de la façon suivante:
 
 <br>
-<center>
-   <img src="./img/theano-diagram-nn.png">
-</center>
+
+<img src="./img/theano-diagram-nn.png">
 
 <br>
+<br>
 
-Le code source au complet est disponible dans le fichier: `theano_test/xnor_logical_function_neural.py`
+De ce diagramme, on peut définir la table de vérité en fonction des neurones:
+
+| Entrée 1 | Entrée 2 | Neurone 1 | Neurone 2 | Neurone 3 | Sortie |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| 0 | 0 | 1 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 1 | 0 | 1 | 1 | 1 |
+<br>
+
+L'étude préliminaire étant terminée, nous allons désormais pouvoir passer à l'implémentation. Le code source au complet est disponible dans le fichier: `theano_test/xnor_logical_function_neural.py`  
+
+Commençons par importer les différentes librairies nécessaires à la création d'un réseau de neurones.
+
+```python
+# Imports
+import theano
+import theano.tensor
+from theano import function
+
+from random import random
+import numpy
+```
+
+Afin d'utiliser Théano, il est nécessaire d'importer la librairie. On importe également theano.tensor, qui permet l'accès à des types (matrix, scalar, ...) et des méthodes de calculs (exp, dot, log, ...) compatibles avec theano. Les functions theano sont également nécessaire au bon fonctionnement du projet. Enfin, on importe numpy et random, afin de faciliter la manipulation de données.  
+
+```python
+# Variables Definition
+inputMatrix = theano.tensor.matrix('inputMatrix')
+
+weight1 = theano.shared(numpy.array([random(), random()]))
+weight2 = theano.shared(numpy.array([random(), random()]))
+weight3 = theano.shared(numpy.array([random(), random()]))
+
+bias1 = theano.shared(1.)
+bias2 = theano.shared(1.)
+
+learningRate = 0.01
+iterationNumber = 100000
+```
+
+Définissons les variables qui vont nous être nécessaires. Tout d'abord, l'entrée de notre réseau de neurones est une matrice de dimension deux. Elle contient les différents couples de valeurs possibles.  
+Ensuite, on définit plusieurs variables de type shared. Ces variables sont partagées par les différents appels des fonctions Théano, et permettent de convertir directement depuis des types Python. On définit ici les poids correpondants aux trois neurones, ainsi que les deux biais des deux couches.
+(Plus d'infos sur les types ajoutés par Théano [ici](https://theano.readthedocs.io/en/rel-0.6rc3/library/tensor/basic.html))  
+Nous définissons également le taux d'apprentissage en float, ainsi qu'un entier représentant le nombre d'itérations pour l'apprentissage.
+
+```python
+# Variables Definition
+neuron1 = 1/(1 + theano.tensor.exp( -theano.tensor.dot(inputMatrix, weight1) - bias1))
+neuron2 = 1/(1 + theano.tensor.exp( -theano.tensor.dot(inputMatrix, weight2) - bias1))
+firstLayerResulMatrix = theano.tensor.stack([neuron1, neuron2], axis=1)
+
+neuron3 = 1/(1 + theano.tensor.exp( -theano.tensor.dot(firstLayerResulMatrix, weight3) - bias2))
+```
+
+Il est maintenant temps de définir nos neurones. pour chacune des neurones, on utilise la formule suivante:  
+
+$valeurNeurone = \frac{1}{1 + \exp(- <\vec{entrée}, \vec{poids}> - biais)}$
+
+Notons qu'il nous est alors nécessaire de définir une matric temporaire entre les deux couches du réseau de neurone, afin de pouvoir appliquer la même formule à la troisième neurone.
+
+```python
+# Gradient Definition
+realOutput = theano.tensor.vector('realOutput')
+cost = -(realOutput*theano.tensor.log(neuron3) + (1 - realOutput)*theano.tensor.log(1-neuron3)).sum()
+gradWeight1, gradWeight2, gradWeight3, gradBias1, gradBias2 = theano.tensor.grad(cost, [weight1, weight2, weight3, bias1, bias2])
+```
 
 ---
 
 ## Sources
 
 <h3><u>Sources pour la documentation d'OpenNN</h3></u>
+<br>
 
 ToDo Florian
 
 <h3><u>Sources pour la documentation Theano</h3></u>
+<br>
   
 - [JournalDev - Tutorial de développement Theano](https://www.journaldev.com/17840/theano-python-tutorial)
 - [Theano - API Documentation](https://theano-pymc.readthedocs.io/en/latest/library/index.html)
