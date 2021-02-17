@@ -170,8 +170,11 @@ neuron3 = 1/(1 + theano.tensor.exp( -theano.tensor.dot(firstLayerResulMatrix, we
 
 Il est maintenant temps de définir nos neurones. pour chacune des neurones, on utilise la formule suivante:  
 
-$valeurNeurone = \frac{1}{1 + \exp(- <\vec{entrée}, \vec{poids}> - biais)}$
+<br>
+<img src="img/expression.png"/>
 
+<br>
+<br>
 Notons qu'il nous est alors nécessaire de définir une matric temporaire entre les deux couches du réseau de neurone, afin de pouvoir appliquer la même formule à la troisième neurone.
 
 ```python
