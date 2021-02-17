@@ -2,30 +2,39 @@
 
 Mini-projet de tests de librairies de Machine Learning sur Python & Unix.  Le groupe est composé de Florian SANANES (OpenNN) et Nicolas MENGOZZI (Theano).
 
+<br>
+
 ## Videos de présentation
 
 [Vidéo de présentation de OpenNN](https://github.com/NicowNicow/MLminiprojet/blob/main/vids/openNN_pitch.mp4)
 
 Vidéo de présentation de Theano:
 
-[![Vidéo de présentation de Theano](https://img.youtube.com/vi/AYyUuKGogbw/0.jpg)](https://www.youtube.com/watch?v=AYyUuKGogbw)
+<center>
+    <a href="https://www.youtube.com/watch?v=AYyUuKGogbw">
+    <img src="https://img.youtube.com/vi/AYyUuKGogbw/0.jpg">
+    </a>
+</center>
+<br>
 
 ## Installation
 
-Afin d'installer les deux librairies utilisées dans ce projet, [OpenNN](https://www.opennn.net/) et [Theano](https://www.tutorialspoint.com/theano/index.htm), il suffit d'executer le [script d'installation](https://github.com/NicowNicow/MLminiprojet/blob/14a55f329b63c61fb16873534a3756683c6b9133/install_script.sh), situé à la racine du repository, dans le répertoire de travail choisi:
+Afin d'installer les deux librairies utilisées dans ce projet, [OpenNN](https://www.opennn.net/) et [Theano](https://www.tutorialspoint.com/theano/index.htm), il suffit d'executer le [script d'installation](https://github.com/NicowNicow/MLminiprojet/blob/14a55f329b63c61fb16873534a3756683c6b9133/install_script.sh), situé à la racine du repository, dans le répertoire de travail choisi: `install_script.sh`
 
-``` sh install_script.sh ```
+<br>
 
-   ---
+---
 
 ## Historique des librairies
 
-### OpenNN
+<h3><u>OpenNN</h3></u>
 
 > Le développement de OpenNN s’initia au Centre Internacional de Métodos Numéricos en Ingeniería (CIMNE), en 2003, en faisant partie d’un projet de recherche de l’Union européenne appelé ‘RAMFLOOD’. Ensuite, il continua en faisant partie d’autres projets similaires. Actuellement, OpenNN est développé par l’entreprise startup Artelnics. En 2014, la page «Big Data Analytics Today» qualifia OpenNN comme le numéro 1 dans la liste de projets d’intelligence artificielle inspirés du fonctionnement du cerveau. Dans la même année, ce logiciel fut sélectionné parmi les 5 meilleures applications d’exploration de données, par «ToppersWorld».  
 Source: [Wikipédia](https://fr.wikipedia.org/wiki/OpenNN)
 
-### Theano
+<br>
+
+<h3><u>Theano</h3></u>
 
 > Theano is an open source project primarily developed by the Montreal Institute for Learning Algorithms (MILA) at the Université de Montréal.
 The name of the software references the ancient philosopher Theano, long associated with the development of the golden mean.
@@ -37,7 +46,7 @@ Source: [Wikipédia](https://en.wikipedia.org/wiki/Theano_(software))
 
 ## Caractéristiques et points forts/faibles des librairies
 
-### Caractéristiques d'OpenNN
+<h3><u>Caractéristiques d'OpenNN</h3></u>
 
 Avantages:
 
@@ -49,7 +58,7 @@ Inconvénients:
 - La procédure d'installation est défectueuse.
 - OpenNN nécessite d'être *linkée* à d'autres librairies afin d'accéder à de bonnes performances. Cet aspect ne semble pas documenté.
 
-### Caractéristiques de Theano
+<h3><u>Caractéristiques de Theano</h3></u>
 
 Avantages:
 
@@ -72,23 +81,71 @@ Inconvénients:
   
 ## Prise en main des librairies
 
-### Prise en main d'OpenNN
+<u><h3> Prise en main d'OpenNN</h3></u>
 
-ToDo
+ToDo Florian
 
-### Prise en main de Theano
-  
-ToDo
+<u><h3> Prise en main de Theano: Exemple de création d'un réseau de neurones double couche</h3></u>
+<br>
+
+Afin d'appréhender la prise en main de la librairie avec un exemple concret, nous allons ici créer un réseau de neurones à deux couches, dont le but est l'apprentissage de la fonction logique XNOR.
+On rappelle tout d'abord la table de vérité de la fonction XNOR:  
+
+<center>
+   <table style="text-align: center;">
+      <thead>
+         <tr>
+            <th>Entrée 1</th>
+               <th>Entrée 2</th>
+               <th>Sortie</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>0</td>
+               <td>0</td>
+               <td>1</td>
+         </tr>
+            <tr>
+            <td>0</td>
+               <td>1</td>
+               <td>0</td>
+         </tr>
+            <tr>
+            <td>1</td>
+               <td>0</td>
+               <td>0</td>
+         </tr>
+            <tr>
+            <td>1</td>
+               <td>1</td>
+               <td>1</td>
+         </tr>
+      </tbody>
+   </table>
+</center>
+<br>
+
+Nous allons ici réaliser un apprentissage supervisé d'un réseau à plusieurs couches. Ce réseau est défini de la façon suivante:
+
+<br>
+<center>
+   <img src="./img/theano-diagram-nn.png">
+</center>
+
+<br>
+
+Le code source au complet est disponible dans le fichier: `theano_test/xnor_logical_function_neural.py`
 
 ---
-  
+
 ## Sources
 
-### Sources pour la documentation d'OpenNN
+<h3><u>Sources pour la documentation d'OpenNN</h3></u>
 
-ToDo
+ToDo Florian
 
-### Sources pour la documentation Theano
+<h3><u>Sources pour la documentation Theano</h3></u>
   
 - [JournalDev - Tutorial de développement Theano](https://www.journaldev.com/17840/theano-python-tutorial)
 - [Theano - API Documentation](https://theano-pymc.readthedocs.io/en/latest/library/index.html)
