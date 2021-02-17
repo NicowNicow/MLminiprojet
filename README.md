@@ -237,7 +237,7 @@ for index in range (len(inputs)):
 
 Après écriture du script d'affichage et exécution du fichier python, on obtient le résultat suivant dans la console:
 
-<img src="img/resultat_entrainement.jpg">
+<img src="img/resultat_entrainement.JPG">
 
 Nous avons ainsi appris les bases de l'utilisation de Théano, et savons désormais entrainer un réseau de neurone à plusieurs couches.
 
