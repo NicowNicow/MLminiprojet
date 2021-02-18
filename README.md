@@ -1,6 +1,6 @@
 # Machine Learning Mini Projet
 
-Mini-projet de tests de librairies de Machine Learning sur Python & Unix.  Le groupe est composé de Florian SANANES (OpenNN) et Nicolas MENGOZZI (Theano).
+Mini-projet de tests de librairies de Machine Learning sur Python & Unix. Le groupe est composé de Florian SANANES (OpenNN) et Nicolas MENGOZZI (Theano).
 
 ## Videos de présentation
 
@@ -94,7 +94,8 @@ Inconvénients:
 <h3><u>Sources pour la documentation d'OpenNN</h3></u>
 <br>
 
-ToDo Florian
+- [Repo officiel](https://github.com/Artelnics/opennn.git)
+- [Documentation](https://opennn.net/)
 
 <h3><u>Sources pour la documentation Theano</h3></u>
 <br>
